@@ -1,5 +1,11 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
+  "routes": [
+    {
+      "pattern": "s.dunghoang.net",
+      "custom_domain": true
+    }
+  ],
   "name": "sink",
   "main": "dist/server/index.mjs",
   "assets": {
